@@ -37,6 +37,10 @@
     "style-loader": "^0.13.1",
     "webdriverjs": "^1.7.5",
     "webpack": "^1.15.0",
-    "webpack-dev-server": "^1.16.2"
+    "webpack-dev-server": ">=3.1.11",
+    "url-parse": ">=1.4.3",
+    "mime": ">=1.4.1",
+    "growl": ">=1.10.0",
+    "uglify-js": ">=2.6.0"
   }
 }
