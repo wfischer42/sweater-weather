@@ -1,1 +1,129 @@
+body{
+  margin: 0;
+  padding-top: 0;
+  font-family: 'Roboto', sans-serif;
+  background-image: url("gabriele-diwald-201135-unsplash.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  // overflow: hidden;
+  // background-color: #32778c;
+  // background: radial-gradient(
+  //   circle at top left,
+  //   #00D0FF, #31B5FD, #6796EE, #8F74CF, #A74FA2, #AC266C
+  // // );
+  // background: radial-gradient(
+  //   circle at top left,
+  //   #0FECFF, #37F2E9, #65F6CF, #90F8B5
+  // );
+  // background: radial-gradient(
+  //   circle at top right,
+  //   #00D0FF, #00E0F1, #00EDD4, #72F6AF, #B7FA8A, #F9F871
+  // );
+  // background: radial-gradient(
+  //   circle at top right,
+  //   #304449, #435967, #606C84, #867E9C
+  // );
+}
+#title-pane {
+  padding: 4em;
+  background: rgba(220,230,240, 0.3);
+  border-radius: 20px;
+  box-shadow: 11px 13px 35px -5px rgba(41,41,41,0.71);
+  #logo{
+    width: 600px;
+    margin-bottom: 2em;
+  }
+  #welcome{
+    margin-bottom: 0.5em;
+  }
+}
+#content {
+  // text-align: center;
+  margin-top: 3em;
+  width: 850px;
+  height: calc(75vh - 3em);
+  margin: 0 auto;
+  color: white;
+  .subtle {
+    font-weight: 100;
+    font-size: 1.3em;
+    line-height: 1.8em;
+  }
+  .bold {
+    font-weight: 400;
+    font-size: 1.3em;
+  }
+}
 
+#search {
+  // border: thin solid gray;
+  display: inline-block;
+  border-radius: 5em;
+  // box-shadow: 4px 4px 8px 1px rgba(60,60,150, 0.3%);
+  background-color: #44556670;
+  background-color: #ffffff50;
+  // padding: 0;
+  margin: 1rem 0 1rem 0;
+  width: 60%;
+  // height: 3em;
+  font-family: 'Roboto', sans-serif;
+}
+
+.search-form label{
+  margin-right: 0.5em;
+}
+
+input#search-field {
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  margin: 0.7em auto 0.7em 1.5em;
+  font-size: 1.1em;
+  width: 80%;
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+button#search-submit {
+  font-size: 1.5em;
+  margin: 0.17em;
+  font-family: 'Roboto', sans-serif;
+  float: right;
+  background-color: white;
+  height: 1.74em;
+  width: 1.8em;
+  border: none;
+  border-radius: 5em;
+  background-color: #ffffff30;
+  color: white;
+  transition: 0.3s;
+}
+
+button#search-submit:hover{
+  background-color: #ffffff;
+  color: #aaaaaa;
+}
+
+#top-spacer {
+  height: 25vh;
+}
+
+::placeholder {
+  color: #ffffff;
+}
+
+#notice {
+  font-size: 0.9em;
+  color: white;
+  // font-style: italic;
+  font-weight: 100;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active  {
+  background-color: green;
+    // -webkit-box-shadow: 0 0 0 30px white inset !important;
+}
