@@ -1,9 +1,7 @@
 body{
-  // background-color: #a9bec1;
   margin: 0;
   padding-top: 0;
   font-family: 'Roboto', sans-serif;
-  // background-image: url("gabriele-diwald-201135-unsplash.jpg");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -33,7 +31,6 @@ body{
   }
 }
 #content {
-  // text-align: center;
   margin-top: 3em;
   width: 850px;
   height: calc(75vh - 3em);
@@ -51,16 +48,12 @@ body{
 }
 
 #search {
-  // border: thin solid gray;
   display: inline-block;
   border-radius: 5em;
-  // box-shadow: 4px 4px 8px 1px rgba(60,60,150, 0.3%);
   background-color: #44556670;
   background-color: #ffffff50;
-  // padding: 0;
   margin: 1rem 0 1rem 0;
   width: 60%;
-  // height: 3em;
   font-family: 'Roboto', sans-serif;
 }
 
@@ -110,7 +103,6 @@ button#search-submit:hover{
 #notice {
   font-size: 0.9em;
   color: white;
-  // font-style: italic;
   font-weight: 100;
 }
 
@@ -119,5 +111,4 @@ input:-webkit-autofill:hover,
 input:-webkit-autofill:focus,
 input:-webkit-autofill:active  {
   background-color: green;
-    // -webkit-box-shadow: 0 0 0 30px white inset !important;
 }
