@@ -85,6 +85,8 @@ button#search-submit {
   background-color: #ffffff30;
   color: white;
   transition: 0.3s;
+  outline: none;
+  cursor: pointer;
 }
 
 button#search-submit:hover{
