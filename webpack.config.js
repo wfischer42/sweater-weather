@@ -15,6 +15,14 @@ module.exports = {
       { test: /\.js$/, exclude: /node_modules/, loader: 'babel-loader' },
       { test: /\.css$/, loader: "style!css" },
       { test: /\.scss$/, loaders: ["style-loader", "css-loader", "sass-loader"] },
+      { test: /\.(jpg|png)$/,
+        use: {
+          loader: "url-loader",
+          options: {
+            limit: 100000,
+          },
+        },
+      },
     ]
   },
   resolve: {
