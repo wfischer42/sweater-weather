@@ -86,17 +86,6 @@
 /************************************************************************/
 /******/ ({
 
-/***/ "./lib/gabriele-diwald-201135-unsplash.jpg":
-/*!*************************************************!*\
-  !*** ./lib/gabriele-diwald-201135-unsplash.jpg ***!
-  \*************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-eval("module.exports = __webpack_require__.p + \"e4729d4101b3af1d6d8fe4666289ffda.jpg\";\n\n//# sourceURL=webpack:///./lib/gabriele-diwald-201135-unsplash.jpg?");
-
-/***/ }),
-
 /***/ "./lib/index.js":
 /*!**********************!*\
   !*** ./lib/index.js ***!
@@ -105,7 +94,7 @@ eval("module.exports = __webpack_require__.p + \"e4729d4101b3af1d6d8fe4666289ffd
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\n\n__webpack_require__(/*! ./styles.scss */ \"./lib/styles.scss\");\n\n//# sourceURL=webpack:///./lib/index.js?");
+eval("\n\n__webpack_require__(/*! ./styles.scss */ \"./lib/styles.scss\");\n\n// This file is in the entry point in your webpack config.\n$(document).ready(function () {\n  $(\"#title-pane\").fadeIn('slow');\n});\n\n//# sourceURL=webpack:///./lib/index.js?");
 
 /***/ }),
 
@@ -127,7 +116,7 @@ eval("\nvar content = __webpack_require__(/*! !../node_modules/css-loader/dist/c
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("exports = module.exports = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\")(false);\n// Imports\nvar urlEscape = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/url-escape.js */ \"./node_modules/css-loader/dist/runtime/url-escape.js\");\nvar ___CSS_LOADER_URL___0___ = urlEscape(__webpack_require__(/*! ./gabriele-diwald-201135-unsplash.jpg */ \"./lib/gabriele-diwald-201135-unsplash.jpg\"));\n\n// Module\nexports.push([module.i, \"body {\\n  margin: 0;\\n  padding-top: 0;\\n  font-family: 'Roboto', sans-serif;\\n  background-image: url(\" + ___CSS_LOADER_URL___0___ + \");\\n  background-size: cover;\\n  background-position: center center;\\n  background-repeat: no-repeat; }\\n\\n#title-pane {\\n  padding: 4em;\\n  background: rgba(220, 230, 240, 0.3);\\n  border-radius: 20px;\\n  box-shadow: 11px 13px 35px -5px rgba(41, 41, 41, 0.71); }\\n  #title-pane #logo {\\n    width: 600px;\\n    margin-bottom: 2em; }\\n  #title-pane #welcome {\\n    margin-bottom: 0.5em; }\\n\\n#content {\\n  margin-top: 3em;\\n  width: 850px;\\n  height: calc(75vh - 3em);\\n  margin: 0 auto;\\n  color: white; }\\n  #content .subtle {\\n    font-weight: 100;\\n    font-size: 1.3em;\\n    line-height: 1.8em; }\\n  #content .bold {\\n    font-weight: 400;\\n    font-size: 1.3em; }\\n\\n#search {\\n  display: inline-block;\\n  border-radius: 5em;\\n  background-color: #44556670;\\n  background-color: #ffffff50;\\n  margin: 1rem 0 1rem 0;\\n  width: 60%;\\n  font-family: 'Roboto', sans-serif; }\\n\\n.search-form label {\\n  margin-right: 0.5em; }\\n\\ninput#search-field {\\n  color: white;\\n  font-family: 'Roboto', sans-serif;\\n  margin: 0.7em auto 0.7em 1.5em;\\n  font-size: 1.1em;\\n  width: 80%;\\n  background-color: transparent;\\n  border: none;\\n  outline: none; }\\n\\nbutton#search-submit {\\n  font-size: 1.5em;\\n  margin: 0.17em;\\n  font-family: 'Roboto', sans-serif;\\n  float: right;\\n  background-color: white;\\n  height: 1.74em;\\n  width: 1.8em;\\n  border: none;\\n  border-radius: 5em;\\n  background-color: #ffffff30;\\n  color: white;\\n  transition: 0.3s; }\\n\\nbutton#search-submit:hover {\\n  background-color: #ffffff;\\n  color: #aaaaaa; }\\n\\n#top-spacer {\\n  height: 25vh; }\\n\\n::placeholder {\\n  color: #ffffff; }\\n\\n#notice {\\n  font-size: 0.9em;\\n  color: white;\\n  font-weight: 100; }\\n\\ninput:-webkit-autofill,\\ninput:-webkit-autofill:hover,\\ninput:-webkit-autofill:focus,\\ninput:-webkit-autofill:active {\\n  background-color: green; }\\n\", \"\"]);\n\n\n\n//# sourceURL=webpack:///./lib/styles.scss?./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/lib/loader.js");
+eval("exports = module.exports = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\")(false);\n// Module\nexports.push([module.i, \"body {\\n  background-color: #a9bec1;\\n  margin: 0;\\n  padding-top: 0;\\n  font-family: 'Roboto', sans-serif;\\n  background-size: cover;\\n  background-position: center center;\\n  background-repeat: no-repeat; }\\n\\n#background-image {\\n  position: absolute;\\n  top: 0;\\n  left: 0;\\n  width: 100%;\\n  height: 100vh;\\n  z-index: -1;\\n  object-fit: cover; }\\n\\n#title-pane {\\n  padding: 4em;\\n  background: rgba(220, 230, 240, 0.3);\\n  border-radius: 20px;\\n  box-shadow: 11px 13px 35px -5px rgba(41, 41, 41, 0.71); }\\n  #title-pane #logo {\\n    width: 600px;\\n    margin-bottom: 2em; }\\n  #title-pane #welcome {\\n    margin-bottom: 0.5em; }\\n\\n#content {\\n  margin-top: 3em;\\n  width: 850px;\\n  height: calc(75vh - 3em);\\n  margin: 0 auto;\\n  color: white; }\\n  #content .subtle {\\n    font-weight: 100;\\n    font-size: 1.3em;\\n    line-height: 1.8em; }\\n  #content .bold {\\n    font-weight: 400;\\n    font-size: 1.3em; }\\n\\n#search {\\n  display: inline-block;\\n  border-radius: 5em;\\n  background-color: #44556670;\\n  background-color: #ffffff50;\\n  margin: 1rem 0 1rem 0;\\n  width: 60%;\\n  font-family: 'Roboto', sans-serif; }\\n\\n.search-form label {\\n  margin-right: 0.5em; }\\n\\ninput#search-field {\\n  color: white;\\n  font-family: 'Roboto', sans-serif;\\n  margin: 0.7em auto 0.7em 1.5em;\\n  font-size: 1.1em;\\n  width: 80%;\\n  background-color: transparent;\\n  border: none;\\n  outline: none; }\\n\\nbutton#search-submit {\\n  font-size: 1.5em;\\n  margin: 0.17em;\\n  font-family: 'Roboto', sans-serif;\\n  float: right;\\n  background-color: white;\\n  height: 1.74em;\\n  width: 1.8em;\\n  border: none;\\n  border-radius: 5em;\\n  background-color: #ffffff30;\\n  color: white;\\n  transition: 0.3s; }\\n\\nbutton#search-submit:hover {\\n  background-color: #ffffff;\\n  color: #aaaaaa; }\\n\\n#top-spacer {\\n  height: 25vh; }\\n\\n::placeholder {\\n  color: #ffffff; }\\n\\n#notice {\\n  font-size: 0.9em;\\n  color: white;\\n  font-weight: 100; }\\n\\ninput:-webkit-autofill,\\ninput:-webkit-autofill:hover,\\ninput:-webkit-autofill:focus,\\ninput:-webkit-autofill:active {\\n  background-color: green; }\\n\", \"\"]);\n\n\n\n//# sourceURL=webpack:///./lib/styles.scss?./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/lib/loader.js");
 
 /***/ }),
 
@@ -140,18 +129,6 @@ eval("exports = module.exports = __webpack_require__(/*! ../node_modules/css-loa
 
 "use strict";
 eval("\n\n/*\n  MIT License http://www.opensource.org/licenses/mit-license.php\n  Author Tobias Koppers @sokra\n*/\n// css base code, injected by the css-loader\nmodule.exports = function (useSourceMap) {\n  var list = []; // return the list of modules as css string\n\n  list.toString = function toString() {\n    return this.map(function (item) {\n      var content = cssWithMappingToString(item, useSourceMap);\n\n      if (item[2]) {\n        return '@media ' + item[2] + '{' + content + '}';\n      } else {\n        return content;\n      }\n    }).join('');\n  }; // import a list of modules into the list\n\n\n  list.i = function (modules, mediaQuery) {\n    if (typeof modules === 'string') {\n      modules = [[null, modules, '']];\n    }\n\n    var alreadyImportedModules = {};\n\n    for (var i = 0; i < this.length; i++) {\n      var id = this[i][0];\n\n      if (id != null) {\n        alreadyImportedModules[id] = true;\n      }\n    }\n\n    for (i = 0; i < modules.length; i++) {\n      var item = modules[i]; // skip already imported module\n      // this implementation is not 100% perfect for weird media query combinations\n      // when a module is imported multiple times with different media queries.\n      // I hope this will never occur (Hey this way we have smaller bundles)\n\n      if (item[0] == null || !alreadyImportedModules[item[0]]) {\n        if (mediaQuery && !item[2]) {\n          item[2] = mediaQuery;\n        } else if (mediaQuery) {\n          item[2] = '(' + item[2] + ') and (' + mediaQuery + ')';\n        }\n\n        list.push(item);\n      }\n    }\n  };\n\n  return list;\n};\n\nfunction cssWithMappingToString(item, useSourceMap) {\n  var content = item[1] || '';\n  var cssMapping = item[3];\n\n  if (!cssMapping) {\n    return content;\n  }\n\n  if (useSourceMap && typeof btoa === 'function') {\n    var sourceMapping = toComment(cssMapping);\n    var sourceURLs = cssMapping.sources.map(function (source) {\n      return '/*# sourceURL=' + cssMapping.sourceRoot + source + ' */';\n    });\n    return [content].concat(sourceURLs).concat([sourceMapping]).join('\\n');\n  }\n\n  return [content].join('\\n');\n} // Adapted from convert-source-map (MIT)\n\n\nfunction toComment(sourceMap) {\n  // eslint-disable-next-line no-undef\n  var base64 = btoa(unescape(encodeURIComponent(JSON.stringify(sourceMap))));\n  var data = 'sourceMappingURL=data:application/json;charset=utf-8;base64,' + base64;\n  return '/*# ' + data + ' */';\n}\n\n//# sourceURL=webpack:///./node_modules/css-loader/dist/runtime/api.js?");
-
-/***/ }),
-
-/***/ "./node_modules/css-loader/dist/runtime/url-escape.js":
-/*!************************************************************!*\
-  !*** ./node_modules/css-loader/dist/runtime/url-escape.js ***!
-  \************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-eval("\n\nmodule.exports = function escape(url, needQuotes) {\n  if (typeof url !== 'string') {\n    return url;\n  } // If url is already wrapped in quotes, remove them\n\n\n  if (/^['\"].*['\"]$/.test(url)) {\n    url = url.slice(1, -1);\n  } // Should url be wrapped?\n  // See https://drafts.csswg.org/css-values-3/#urls\n\n\n  if (/[\"'() \\t\\n]/.test(url) || needQuotes) {\n    return '\"' + url.replace(/\"/g, '\\\\\"').replace(/\\n/g, '\\\\n') + '\"';\n  }\n\n  return url;\n};\n\n//# sourceURL=webpack:///./node_modules/css-loader/dist/runtime/url-escape.js?");
 
 /***/ }),
 
