@@ -23,16 +23,23 @@ body{
   border-radius: 20px;
   box-shadow: 11px 13px 35px -5px rgba(41,41,41,0.71);
   #logo{
-    width: 600px;
+    width: 100%;
     margin-bottom: 2em;
   }
   #welcome{
+    margin-left: 1.7rem;
     margin-bottom: 0.5em;
+  }
+  #notice {
+    font-size: 0.9em;
+    color: white;
+    font-weight: 100;
+    margin-left: 1.7rem;
   }
 }
 #content {
   margin-top: 3em;
-  width: 850px;
+  width: 750px;
   height: calc(75vh - 3em);
   margin: 0 auto;
   color: white;
@@ -50,11 +57,22 @@ body{
 #search {
   display: inline-block;
   border-radius: 5em;
-  background-color: #44556670;
   background-color: #ffffff50;
-  margin: 1rem 0 1rem 0;
-  width: 60%;
+  margin: 1rem 0 1.5rem 0;
+  width: 100%;
   font-family: 'Roboto', sans-serif;
+}
+
+.brighter {
+  background: transparent !important;
+  margin: 0 !important;
+}
+
+#top-bar{
+  margin: 1em 0;
+  background: rgba(220,230,240, 0.3) !important;
+  box-shadow: 8px 10px 25px -4px rgba(41,41,41,0.40);
+  border-radius: 5em;
 }
 
 .search-form label{
@@ -70,6 +88,16 @@ input#search-field {
   background-color: transparent;
   border: none;
   outline: none;
+}
+
+#small-logo {
+  position: absolute;
+  top: 1.2rem;
+  left: 1.8rem;
+}
+
+.border-highlight {
+  box-shadow: 0px 0px 4px 1px white;
 }
 
 button#search-submit {
@@ -102,15 +130,39 @@ button#search-submit:hover{
   color: #ffffff;
 }
 
-#notice {
-  font-size: 0.9em;
-  color: white;
-  font-weight: 100;
-}
-
 input:-webkit-autofill,
 input:-webkit-autofill:hover,
 input:-webkit-autofill:focus,
 input:-webkit-autofill:active  {
   background-color: green;
+}
+
+.spinning {
+		-webkit-animation: rotation 2s infinite linear;
+}
+
+@-webkit-keyframes rotation {
+		from {
+				-webkit-transform: rotate(0deg);
+		}
+		to {
+				-webkit-transform: rotate(359deg);
+		}
+}
+
+.card {
+  background: rgba(220,230,240, 0.3);
+  border-radius: 20px;
+  box-shadow: 11px 13px 35px -5px rgba(41,41,41,0.71);
+  margin: 2em 0;
+}
+
+#current-forecast {
+  width: 100%;
+  height: 20em;
+}
+
+#weekly-forecast {
+  width: 100%;
+  height: 30em;
 }

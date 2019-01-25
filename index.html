@@ -10,21 +10,32 @@
   <img id="background-image" src="gabriele-diwald-201135-unsplash.jpg" style="display:none;"/>
   <div id="top-spacer">
   </div>
+  <div id="small-logo" style="display:none;">
+    <img src="SW_Logo_White.png" id="logo" style="width: 300px;"/>
+  </div>
   <div id="content">
+    <div id="top-bar" style="display:none;"></div>
+    <div id="forecasts" style="display: none;">
+      <div id="current-forecast" class="card">
+
+      </div>
+      <div id="weekly-forecast" class="card">
+
+      </div>
+    </div>
     <div id="title-pane" style="display:none;">
       <img src="SW_Logo_White.png" id="logo" style="width: 600px;"/>
       <div id="welcome" class="subtle">
-        Let's be honest - it's probably bad out there. <br>To find out just how bad it's going to be, tell us where you are.
+        Let's be honest - it's probably pretty bad out there. <br>To find out just how bad it's going to be, tell us where you are.
       </div>
-        <form class="search-form">
-          <label class="bold"> City and State: </label>
-          <div id="search">
-            <input type="text" id="search-field" name="location" placeholder="Minas Turith, Gondor" />
-            <button id="search-submit"><i class="fa fa-search"></i></button>
-          </div>
+      <div id="search">
+        <form class="search-form" autocomplete="off">
+          <input type="text" id="search-field" name="location" placeholder="Minas Turith, Gondor" />
+          <button id="search-submit"><i class="fa fa-search"></i></button>
         </form>
+      </div>
       <div id="notice">
-        Due to inclement weather, we can only provide forecasts for real locations (in the US).
+        Due to inclement weather, we can only provide accurate forecasts for real locations.
       </div>
     </div>
   </div>
