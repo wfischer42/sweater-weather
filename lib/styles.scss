@@ -1,3 +1,5 @@
+$card-background: rgba(170,180,190, 0.25);
+
 body{
   margin: 0;
   padding-top: 0;
@@ -19,7 +21,7 @@ body{
 
 #title-pane {
   padding: 4em;
-  background: rgba(220,230,240, 0.3);
+  background: $card-background;
   border-radius: 20px;
   box-shadow: 11px 13px 35px -5px rgba(41,41,41,0.71);
   #logo{
@@ -70,7 +72,7 @@ body{
 
 #top-bar{
   margin: 1em 0;
-  background: rgba(220,230,240, 0.3) !important;
+  background: $card-background !important;
   box-shadow: 8px 10px 25px -4px rgba(41,41,41,0.40);
   border-radius: 5em;
 }
@@ -151,18 +153,79 @@ input:-webkit-autofill:active  {
 }
 
 .card {
-  background: rgba(220,230,240, 0.3);
+  background: $card-background;
   border-radius: 20px;
   box-shadow: 11px 13px 35px -5px rgba(41,41,41,0.71);
   margin: 2em 0;
+  padding: 2em;
+  width: calc(100% - 4em);
 }
 
-#current-forecast {
-  width: 100%;
+
+#weekly-forecast {
+  // width: 100%;
   height: 20em;
 }
 
-#weekly-forecast {
-  width: 100%;
-  height: 30em;
+
+#current-forecast {
+  // height: 15em;
+  #forecast-flex {
+    display: flex;
+    justify-content: space-between;
+    ul {
+      list-style: none;
+      margin: 0 2em;
+      padding: 0;
+    }
+  }
+  #forecast-location {
+
+  }
+  #forecast-details {
+    h3 {
+      line-height: 1.85em;
+      // margin-top: 0em;
+    }
+  }
+  #forecast-general{
+
+  }
+
+  #forecast-description{
+    margin: 2em 0 0 2em;
+  }
+
+  h1, h2, h3, h4{
+    line-height: 1.2em;
+    margin: 0;
+    padding: 0;
+  }
+  h1 {
+    font-size: 4rem;
+  }
+  h2 {
+    font-size: 2rem;
+  }
+
+}
+
+#hourly-container{
+  padding: 2em 2em 1em 2em;
+  #hourly-forecast {
+    height: 8em;
+    display: flex;
+    // justify-content: space-between;
+    h2 {
+      line-height: 2em;
+      margin: 0;
+      padding: 0;
+    }
+    overflow: auto;
+  }
+  .hour-forecast {
+    text-align: center;
+    margin: 0 0.5em;
+    min-width: 83px;
+  }
 }
