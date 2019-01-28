@@ -16,14 +16,6 @@ This weather web-app is the Javascript front-end companion to a [backend Ruby-on
   npm install
   ```
 
-3. Add, commit, and push up to your repository:
-
-  ```shell
-  git add .
-  git commit -m "Initial commit using starter kit"
-  git push origin master
-  ```
-
 ### Running the Server Locally
 
 To see your code in action locally, you need to fire up a development server. Use the command:
