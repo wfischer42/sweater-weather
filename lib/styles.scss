@@ -169,7 +169,6 @@ input:-webkit-autofill:active  {
 
 
 #current-forecast {
-  // height: 15em;
   #forecast-flex {
     display: flex;
     justify-content: space-between;
@@ -185,7 +184,6 @@ input:-webkit-autofill:active  {
   #forecast-details {
     h3 {
       line-height: 1.85em;
-      // margin-top: 0em;
     }
   }
   #forecast-general{
@@ -215,7 +213,6 @@ input:-webkit-autofill:active  {
   #hourly-forecast {
     height: 8em;
     display: flex;
-    // justify-content: space-between;
     h2 {
       line-height: 2em;
       margin: 0;
@@ -227,5 +224,24 @@ input:-webkit-autofill:active  {
     text-align: center;
     margin: 0 0.5em;
     min-width: 83px;
+  }
+}
+
+#weekly-forecast{
+  overflow-y: auto;
+  padding-left: 2em;
+  h3 {
+    line-height: 1.2em;
+    margin: 0;
+    padding: 0;
+  }
+  .days-forecast {
+    display: flex;
+    padding: 1.1em 0;
+  }
+  .weekday {
+    border-right: thin solid white;
+    width: 8em;
+    margin-right: 2.5em;
   }
 }
